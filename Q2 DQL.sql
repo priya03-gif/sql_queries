@@ -17,7 +17,7 @@ CREATE TABLE Purchase_Details(
     Total_Amount_Paid DOUBLE(8,2)
 );
 
-INSERT INTO Customer_Details VALUES('3','Kevin','9000000000','Kochi');
+INSERT INTO Customer_Details VALUES('3','priya','8000000000','tamilnadu');
 INSERT INTO Purchase_Details VALUES('6','1','6','2022-10-23',10000.00);
 
 SELECT * FROM Customer_Details;
