@@ -11,6 +11,6 @@ CREATE TABLE Pizza(
     Amount BIGINT(20)
 );
 
-INSERT INTO Pizza VALUES('5','5','23','BBQ Chicken','Cheese','2022-10-23',250);
+INSERT INTO Pizza VALUES('3','3','20','BBQ Chicken','Cheese','2022-10-23',250);
 
 SELECT Pizza_name,COUNT(Pizza_name) AS 'No.Sold' FROM Pizza GROUP BY Pizza_name;
