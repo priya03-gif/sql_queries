@@ -11,7 +11,7 @@ Stud_email varchar(40),
 Student_ClassTeacher_id varchar(40)
 );
 
-insert into student values('ES','pri','12th','A','srii','raj','xxxx','yyyy');
+insert into student values('ES','pri','12th','A','dpi','venkat','xxxx','yyyy');
 insert into examinationmarks values('BS','aaa','saadhu','11th','A','tel','eng','hin',80,85,40,89,90,96,480,80.00,'a+','good');
 
 SELECT stud_name,stud_standard,student_avg_marks,generalscienc100,mathematics100,generalscienc100+mathematics100 as sciencemathstotal
